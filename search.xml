@@ -12,14 +12,14 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[aaa]]></title>
-    <url>%2F2019%2F02%2F22%2Faaa%2F</url>
-    <content type="text"><![CDATA[it’s time to start.可以开始写博客了。]]></content>
+    <title><![CDATA[hexo + github搭建个人博客]]></title>
+    <url>%2F2019%2F02%2F22%2Fhello_world_for_hexo_plus_github%2F</url>
+    <content type="text"><![CDATA[搭建博客的这一想法，受到了朋友的鼓动。其实自己一直在犹豫，一方面觊觎传说的”写技术博客有助于技术review”，另一方面担心维持个人博客会占用自己过多的时间本末倒置。但看见朋友搭建并悉心经营的博客实在心动，遂试之（笑，真是爱美之心人皆有）。 于是有了这第一篇使用Hexo的博客，在此也对搭建过程的重点进行回顾。 Hexo 及 Github相关环境配置此部分参见史上最详细的Hexo博客搭建图文教程即可。 实践中遇到的问题： Hexo无法ssh上github。解决方案参见Permission denied (publickey). fatal: Could not read from remote repository. 博客主题配置 NexT主题安装及配置：NexT，按照其中的开始使用、主题配置、第三方服务进行配置即可。 为博客开启评论：比较后最终使用Valine。注意：其中用到的LeanCloud我使用微博登录。 使用时要注意结合Hexo文档 。 Hexo常用指令创建新的文章1$ hexo new post "My New Post" More info: Writing 运行服务器1$ hexo server (or s) 常使用debug模式进行 1$ hexo s --debug More info: Server 生成静态网页1$ hexo generate (or g) More info: Generating 部署到github1$ hexo deploy (or d) More info: Deployment 部署不及时12$ hexo clean$ hexo g -d]]></content>
       <categories>
-        <category>随笔</category>
+        <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>有滴野</tag>
+        <tag>工具</tag>
       </tags>
   </entry>
 </search>
